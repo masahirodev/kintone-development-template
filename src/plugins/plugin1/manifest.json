@@ -1,0 +1,27 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "dist/desktop.js"
+    ],
+    "css": []
+  },
+  "icon": "public/icon.png",
+  "config": {
+    "html": "public/config.html",
+    "js": [
+      "dist/config.js"
+    ],
+    "css": []
+  },
+  "name": {
+    "ja": "plugin1",
+    "en": "plugin1"
+  },
+  "description": {
+    "ja": "plugin1",
+    "en": "plugin1"
+  }
+}

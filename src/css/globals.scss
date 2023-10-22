@@ -1,0 +1,72 @@
+// -------------------- custom scss -------------------- //
+
+$body-bg: #d4d7d7;
+
+$link-decoration: none;
+
+$h1-font-size: inherit;
+$h2-font-size: inherit;
+$h3-font-size: inherit;
+$h4-font-size: inherit;
+$h5-font-size: inherit;
+$h6-font-size: inherit;
+
+$headings-line-height: normal;
+
+// -------------------- custom scss end -------------------- //
+
+@import "~bootstrap/scss/bootstrap";
+
+// -------------------- custom css -------------------- //
+
+.control-value-gaia,
+.gaia-argoui-app-infobar-breadcrumb-iconlist,
+.gaia-argoui-app-breadcrumb-item,
+.gaia-argoui-app-breadcrumb-portal,
+.gaia-argoui-app-index-pager,
+.showlayout-gaia,
+.input-checkbox-item-cybozu,
+.input-radio-item-cybozu {
+  box-sizing: content-box;
+}
+
+.subtable-operation-gaia {
+  border-style: none;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-style: none;
+}
+
+img,
+svg {
+  vertical-align: baseline;
+}
+
+.modal-dialog {
+  background-color: transparent;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1,
+p,
+.p {
+  margin-bottom: 0;
+}
+
+// -------------------- custom css end -------------------- //
